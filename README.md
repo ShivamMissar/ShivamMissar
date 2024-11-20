@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shivam Missar</h1>
 <h3 align="center">A passionate Software Developer/Engineer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shivammissar&label=Profile%20views&color=0e75b6&style=flat" alt="shivammissar" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shivammissar" alt="shivammissar" /></a> </p>
 
 - 🌱 I’m currently learning **React, Node.js, Angular and Vue.js**
