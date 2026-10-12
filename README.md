@@ -1,51 +1,127 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Shivam%20Missar&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Engineer%20%2F%20Freelance%20Web%20Developer&descSize=18&descAlignY=55&textBg=false"/>
+<h1 align="center">🎫 Shivam Missar</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=Can%20never%20be%20satisfied%20with%20good%2C%20always%20have%20to%20better" alt="Typing introduction" />
+  <b>Software Engineer who spends his days inside a ticketing system,<br/>so naturally his GitHub profile is one too.</b>
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=ShivamMissar">
-    <img src="https://komarev.com/ghpvc/?username=ShivamMissar&label=Profile%20views&color=00FFFF&style=flat-square" alt="ShivamMissar's profile views" />
-  </a>
+  <img src="https://img.shields.io/badge/status-open%20to%20opportunities-00C853?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/priority-P1%20(obviously)-FF1744?style=for-the-badge" alt="Priority" />
+  <img src="https://img.shields.io/badge/SLA-replies%20within%2024h-2979FF?style=for-the-badge" alt="SLA" />
 </p>
 
-## 📌 About Me
-- I'm currently learning React
+<p align="center">
+  <a href="https://shivammissar.app"><img src="https://img.shields.io/badge/Portfolio-shivammissar.app-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/shivam-missar/"><img src="https://img.shields.io/badge/LinkedIn-shivam--missar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:Shivamissar06@gmail.com"><img src="https://img.shields.io/badge/Email-Raise%20a%20ticket-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.instagram.com/framedbysm/"><img src="https://img.shields.io/badge/Instagram-framedbysm-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+</p>
 
+---
 
-## 🧠 My Focus Areas
-- Web Development
+### 🎟️ Ticket #0001 — Request: *"Who is this guy?"*
 
+```yaml
+Ticket:      "#0001"
+Type:        Service Request
+Raised by:   You, a curious visitor
+Assigned to: Shivam Missar
+Status:      ✅ Resolved below
 
-## 🛠️ Languages & Tools
+Summary:
+  Role:      Technical Consultant @ XMA
+  Strongest: C# · ASP.NET Core · React · SQL
+  Degrees:   BSc Software Engineering (First) · MSc Software Development (Merit)
+  Motto:     "Can never be satisfied with good, always have to better."
+```
 
-> ## Programming Languages
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="48" height="48" style="margin: 4px;" /></p>
+### 📝 Resolution Notes
 
-> ## Frontend
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="48" height="48" style="margin: 4px;" /> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="48" height="48" style="margin: 4px;" /></p>
+I sit where engineering meets service delivery. At work I write **SQL that does the billing so humans don't have to**, build **workflow automations** that close loops nobody else noticed were open, and craft **HTML emails that survive Outlook**. Outlook is the final boss of front-end development, and I fight it daily.
 
-> ## Backend
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-ar21.svg" alt="Flask" width="48" height="48" style="margin: 4px;" /></p>
+After hours I turn those day-job headaches into products. Every annoying problem is a side project waiting to happen.
 
-> ## Database
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="48" height="48" style="margin: 4px;" /></p>
+---
 
-> ## DevOps & Cloud
-<p align="center"><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins" width="48" height="48" style="margin: 4px;" /></p>
+### 🚀 Release Notes
 
-> ## Tools
-<p align="center"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg" alt="Vite" width="48" height="48" style="margin: 4px;" /></p>
+```diff
++ v2.0  Ticketmail Builder                        [ IN DEVELOPMENT ]
++       Outlook-safe email template builder for MSPs & PSA tools.
++       Because no one should hand-write <table> layouts in 2026.
++       Stack: React · ASP.NET Core
 
-## 🔗 Connect with Me
-<p align="center"><a href="https://www.linkedin.com/in/shivam-missar/" target="_blank"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/LinkedIN.svg" alt="LinkedIN" width="40" height="40" style="margin: 0 8px;"/></a> <a href="mailto:Shivamissar06@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Gmail.svg" alt="Gmail" width="40" height="40" style="margin: 0 8px;"/></a> <a href="https://shivammissar.netlify.app" target="_blank"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/WWW.svg" alt="Website" width="40" height="40" style="margin: 0 8px;"/></a></p>
++ v1.3  Locana                                    [ LIVE ]
++       Local community events board with auth,
++       real-time updates and location filtering.
++       Stack: React · Tailwind · Node.js · Supabase
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-</picture>
++ v1.2  NHS Emergency Department Simulation       [ FEATURED BY NHS-R ]
++       Discrete-event simulation of patient flow, built on my NHS internship.
++       Stack: Python · SimPy
 
-<p align="center"><a href="https://www.buymeacoffee.com/Shivam Missar" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
++ v1.0  Book Club                                 [ SHIPPED ]
++       Final-year uni project. Full-stack ASP.NET, and where it all started.
++       Stack: C# · ASP.NET
+```
 
+👉 **[Try Locana live](https://local-community-events-board-ylos.vercel.app)**
+
+---
+
+### 🧰 Toolkit
+
+**Main character energy**
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![HaloPSA](https://img.shields.io/badge/HaloPSA-1E88E5?style=for-the-badge)
+
+**Supporting cast**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**Behind the scenes crew**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+
+**Ways of working:** ITIL 4 · Scrum · REST API design
+
+---
+
+### 🐛 Known Issues
+
+```diff
+- Cannot leave code at "good enough". Workaround: none found. Won't fix.
+- Opens Outlook, sees broken padding, takes it personally.
+- Says "one more side project" roughly once a month.
+- Will stop mid-walk to take a photo. Proof: @framedbysm 📷
+```
+
+---
+
+<p align="center">
+  <b>Got a role, an idea, or a bug that needs a stubborn person?</b><br/>
+  <a href="mailto:Shivamissar06@gmail.com">Raise a ticket ↗</a>, and I promise to beat the SLA.
+</p>
