@@ -1,0 +1,80 @@
+name: Update profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily, ~06:17 UTC
+  workflow_dispatch:
+    inputs:
+      portrait:
+        description: "Force-regenerate the ASCII portrait"
+        type: boolean
+        default: false
+  push:
+    branches: ["**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install
+        run: pip install -r scripts/requirements.txt pillow numpy
+
+      # --- ASCII portrait: only rebuilt when the source photo changes (or forced) ---
+      - name: Pick portrait source
+        id: src
+        run: |
+          mkdir -p data
+          photo=$(ls assets/photo.* 2>/dev/null | head -1 || true)
+          if [ -n "$photo" ]; then
+            cp "$photo" /tmp/source
+          else
+            # no photo committed yet: fall back to the GitHub avatar
+            curl -sSL "https://github.com/${{ github.repository_owner }}.png?size=600" -o /tmp/source
+          fi
+          new=$(sha256sum /tmp/source | cut -d' ' -f1)
+          old=$(cat data/portrait-source.sha 2>/dev/null || true)
+          if [ "$new" != "$old" ] || [ ! -f assets/portrait-dark.svg ] || [ "${{ inputs.portrait }}" = "true" ]; then
+            echo "rebuild=true" >> "$GITHUB_OUTPUT"
+            echo "$new" > data/portrait-source.sha
+          fi
+
+      - name: Build portrait
+        if: steps.src.outputs.rebuild == 'true'
+        run: |
+          pip install -r scripts/requirements-portrait.txt
+          python scripts/prep_photo.py /tmp/source data/portrait-prepped.png
+          python scripts/make_ascii_svg.py data/portrait-prepped.png
+
+      # --- info card: cheap, rebuilt every run so edits to make_info_card.py just work ---
+      - name: Build info card
+        run: python scripts/make_info_card.py
+
+      # --- contribution graph: refreshed daily ---
+      - name: Fetch contributions
+        env:
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap
+        run: python scripts/render_heatmap_svg.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "assets/*.svg data/*"
+          commit_user_name: Shivam Missar
+          commit_user_email: 75261907+ShivamMissar@users.noreply.github.com
+          commit_author: Shivam Missar <75261907+ShivamMissar@users.noreply.github.com>

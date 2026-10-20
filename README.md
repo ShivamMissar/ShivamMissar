@@ -17,6 +17,32 @@
   <a href="https://www.instagram.com/framedbysm/"><img src="https://img.shields.io/badge/Instagram-framedbysm-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
+<div align="center">
+  <h3><code>shivam@github ~ $ whoami</code></h3>
+  <table>
+    <tr>
+      <td valign="top">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/portrait-dark.svg" />
+          <img src="./assets/portrait-light.svg" width="370" alt="ASCII portrait of Shivam" />
+        </picture>
+      </td>
+      <td valign="top">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/info-card-dark.svg" />
+          <img src="./assets/info-card-light.svg" width="490" alt="Role: Technical Consultant @ XMA. Stack: C#, ASP.NET Core, React, SQL." />
+        </picture>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <h3><code>shivam@github ~ $ ./contributions.sh</code></h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-heatmap-dark.svg" />
+    <img src="./assets/contrib-heatmap-light.svg" width="860" alt="Contribution graph for the last year" />
+  </picture>
+</div>
+
 ---
 
 ### 🎟️ Ticket #0001 — Request: *"Who is this guy?"*
